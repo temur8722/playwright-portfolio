@@ -39,7 +39,7 @@ It is designed as a **portfolio project** to demonstrate industry best practices
 
 ## 📂 Project Structure
 playwright-automation-framework/
-├── tests/ # Test specs (smoke, regression, api)
+```├── tests/ # Test specs (smoke, regression, api)
 ├── pages/ # Page Object Model classes
 ├── fixtures/ # Custom fixtures (auth, data, etc.)
 ├── config/ # Configurations (environments, reporters)
@@ -47,7 +47,7 @@ playwright-automation-framework/
 ├── package.json
 ├── playwright.config.ts
 └── README.md
-
+```
 
 ---
 
@@ -55,22 +55,28 @@ playwright-automation-framework/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/temur8722/playwright-automation-framework.git
+git clone https://github.com/<your-username>/playwright-automation-framework.git
 cd playwright-automation-framework
-
+```
 ### 2. Install dependencies
+```bash
 npm install
-3. Run tests
+```
+### 3. Run tests
 Run all tests:
+```bash
 npx playwright test
-
+```
 Run smoke tests only:
-npx playwright tests -grep @smoke
+```bash
+npx playwright test --grep @smoke
+```
 
-📊 Reporting
-
+## 📊 Reporting
 After a test run, open the HTML report:
+```bash
 npx playwright show-report
+```
 Example CI/CD run artifacts include:
 
 HTML reports
@@ -78,6 +84,8 @@ HTML reports
 Screenshots
 
 Videos
+
+Traces
 
 ⚙️ CI/CD (GitHub Actions)
 
@@ -88,5 +96,3 @@ GitHub Actions workflow runs:
 ✅ Full regression suite nightly
 
 ✅ Stores reports and traces as artifacts
-
-Traces
