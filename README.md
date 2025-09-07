@@ -6,8 +6,8 @@
 [![GitHub Actions](https://img.shields.io/github/actions/workflow/status/temur8722/playwright-portfolio/playwright.yml?branch=main&logo=github-actions&logoColor=white)](https://github.com/temur8722/playwright-portfolio/actions)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Repo Size](https://img.shields.io/github/repo-size/temur8722/playwright-automation-framework)](https://github.com/temur8722/playwright-automation-framework)
-[![Stars](https://img.shields.io/github/stars/temur8722/playwright-automation-framework?style=social)](https://github.com/temur8722/playwright-automation-framework/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/temur8722/playwright-portfolio)](https://github.com/temur8722/playwright-portfolio)
+[![Stars](https://img.shields.io/github/stars/temur8722/playwright-portfolio?style=social)](https://github.com/temur8722/playwright-portfolio/stargazers)
 
 ---
 
