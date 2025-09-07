@@ -1,7 +1,3 @@
-# playwright-portfolio
-“End-to-end test automation framework built with Playwright + TypeScript, showcasing framework design, fixtures, CI/CD, and reporting.”
-
-# Playwright Automation Framework 🚀
 # Playwright Automation Framework 🚀
 
 [![Playwright](https://img.shields.io/badge/tested%20with-Playwright-45ba4b?logo=microsoft-playwright&logoColor=white)](https://playwright.dev/)
@@ -12,7 +8,9 @@
 [![Repo Size](https://img.shields.io/github/repo-size/your-username/playwright-automation-framework)](https://github.com/your-username/playwright-automation-framework)
 [![Stars](https://img.shields.io/github/stars/your-username/playwright-automation-framework?style=social)](https://github.com/your-username/playwright-automation-framework/stargazers)
 
+---
 
+## 📖 Overview
 This repository contains a scalable end-to-end automation framework built with [Playwright](https://playwright.dev/) and TypeScript.  
 
 It is designed as a **portfolio project** to demonstrate industry best practices in **test automation architecture**, including Page Object Model, fixtures, API + UI testing, reporting, and CI/CD integration.
@@ -55,26 +53,24 @@ playwright-automation-framework/
 
 ## 🚀 Getting Started
 
-1. Clone the repo
+### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/playwright-automation-framework.git
+git clone https://github.com/temur8722/playwright-automation-framework.git
 cd playwright-automation-framework
 
 2. Install dependencies
 npm install
-
-3. Run tests:
+3. Run tests
+Run all tests:
 npx playwright test
+
 Run smoke tests only:
-npx playwright test --grep @smoke
+npx playwright tests -grep @smoke
 
 📊 Reporting
 
 After a test run, open the HTML report:
-
 npx playwright show-report
-
-
 Example CI/CD run artifacts include:
 
 HTML reports
@@ -82,8 +78,6 @@ HTML reports
 Screenshots
 
 Videos
-
-Traces
 
 ⚙️ CI/CD (GitHub Actions)
 
@@ -94,3 +88,5 @@ GitHub Actions workflow runs:
 ✅ Full regression suite nightly
 
 ✅ Stores reports and traces as artifacts
+
+Traces
