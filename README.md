@@ -2,6 +2,16 @@
 “End-to-end test automation framework built with Playwright + TypeScript, showcasing framework design, fixtures, CI/CD, and reporting.”
 
 # Playwright Automation Framework 🚀
+# Playwright Automation Framework 🚀
+
+[![Playwright](https://img.shields.io/badge/tested%20with-Playwright-45ba4b?logo=microsoft-playwright&logoColor=white)](https://playwright.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/your-username/playwright-automation-framework/playwright.yml?branch=main&logo=github-actions&logoColor=white)](https://github.com/your-username/playwright-automation-framework/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Repo Size](https://img.shields.io/github/repo-size/your-username/playwright-automation-framework)](https://github.com/your-username/playwright-automation-framework)
+[![Stars](https://img.shields.io/github/stars/your-username/playwright-automation-framework?style=social)](https://github.com/your-username/playwright-automation-framework/stargazers)
+
 
 This repository contains a scalable end-to-end automation framework built with [Playwright](https://playwright.dev/) and TypeScript.  
 
