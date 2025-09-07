@@ -58,7 +58,7 @@ playwright-automation-framework/
 git clone https://github.com/temur8722/playwright-automation-framework.git
 cd playwright-automation-framework
 
-2. Install dependencies
+### 2. Install dependencies
 npm install
 3. Run tests
 Run all tests:
